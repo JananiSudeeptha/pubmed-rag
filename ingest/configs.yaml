@@ -1,0 +1,7 @@
+eutils_base_url : "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+medical_topics : [
+  "Diabetes", 
+  "Hypertension", 
+  "Arthritis"
+]
+retmax_per_topic : 20
