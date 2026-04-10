@@ -5,3 +5,4 @@ medical_topics : [
   "Arthritis"
 ]
 retmax_per_topic : 20
+raw_ingested_data_file : "pubmed_articles_data.json"

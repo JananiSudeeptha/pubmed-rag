@@ -37,3 +37,7 @@ class DataIngestionConfig:
     @property
     def retmax_per_topic(self) -> int:
         return self.config.get("retmax_per_topic", 10)
+
+    @property
+    def raw_ingested_data_file(self) -> str:
+        return self.config.get("raw_ingested_data_file", "pubmed_articles_data.json")
